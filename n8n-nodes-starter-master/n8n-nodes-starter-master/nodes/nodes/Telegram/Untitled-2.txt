@@ -1,0 +1,6 @@
+docker run -d --name n8n \
+  -p 5678:5678 \
+  --restart unless-stopped \
+  -v n8n_data:/home/node/.n8n \
+  -e TZ=Asia/Jakarta \
+  docker.n8n.io/n8nio/n8n:latest
