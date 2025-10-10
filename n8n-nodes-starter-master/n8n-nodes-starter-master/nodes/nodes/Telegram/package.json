@@ -1,9 +1,0 @@
-"n8n": {
-  "n8nNodesApiVersion": 1,
-  "nodes": [
-    "dist/nodes/Telegram/TelegramSignal.node.js"
-  ],
-  "credentials": [
-    "dist/credentials/TelegramApi.credentials.js"
-  ]
-}
